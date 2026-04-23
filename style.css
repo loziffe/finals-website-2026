@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(206, 206, 206);
+    background-image: url("assets/bg.png");
+    background-repeat: repeat;
+    background-size: 550px 550px;
+    overflow: hidden;
+    font-family: "smalle";
+    -webkit-animation: scrolling 5s linear infinite;
+    -moz-animation: scrolling 5s linear infinite;
+    -o-animation: scrolling 5s linear infinite;
+    animation: scrolling 5s linear infinite;
+}
+
+nav{
+    background-color: rgb(206, 206, 206);
+    border: 3px solid;
+    border-color: rgb(201, 201, 201);
+    border-right-color: rgb(97, 97, 97);
+    border-bottom-color: rgb(97, 97, 97);
+    margin: 5px;
+    text-align: center;
+
+}
+
+nav a{
+    display: inline;
+}
+
+li{
+    list-style-position: inside;
+    font-size: x-large;
+}
+
+.paused{
+    -webkit-animation-play-state:paused !important; 
+    -moz-animation-play-state:paused !important; 
+    -o-animation-play-state:paused !important;
+    animation-play-state:paused !important;
+}
+
+.titleContainer{
+    background-color: rgb(184, 184, 184);
+    border: 3px solid;
+    border-color: #696a6a;
+    border-right-color: rgb(97, 97, 97);
+    border-bottom-color: rgb(97, 97, 97);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.bodyContainer{
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border: 5px solid;
+    border-color: rgb(87, 87, 87);
+    border-right-color: rgb(65, 65, 65);    
+    border-bottom-color:rgb(65, 65, 65);    
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.notepadContainer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 5px solid;
+    border-color: rgb(112, 112, 112);
+    border-right-color: rgb(41, 41, 41);
+    border-bottom-color: rgb(41,41,41);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.smallBodyContainer{
+    background-color: rgb(87, 87, 87);
+    color: white;
+    width: 50%;
+    height: 50%;
+    border: 3px solid;
+    border-color: rgb(112, 112, 112);
+    border-right-color: rgb(41, 41, 41);
+    border-bottom-color: rgb(41,41,41);
+    margin-bottom: 5px;
+}
+
+
+#rainbow{
+    animation: rainbow 10s linear infinite;
+}
+
+#windowBorder{
+    width: 100%;
+    height: auto;
+}
+
+#title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#profileImage{
+    display: inline;
+    vertical-align: text-top;
+}
+
+#profile{
+    display: inline;
+    vertical-align: text-top;
+}
+
+
+@font-face{
+    font-family: "Welcome Darling";
+    src: url(assets/fonts/Welcome\ Darling.otf);
+}
+
+@font-face {
+    font-family: "smalle";
+    src: url(assets/fonts/smalle.ttf);
+}
+
+@-webkit-keyframes scrolling {
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position:  550px 550px;
+  }
+}
+
+@keyframes rainbow {
+  0%   { background-color: #7c0a0a; 
+border-color: #7c0a0a;
+border-right-color: #500808;
+border-bottom-color: #500808;} 
+  20%  { background-color: #cabe0d; 
+    border-color: #cabe0d;
+    border-right-color: #7c750c;
+border-bottom-color: #7c750c;}
+  40%  { background-color: #258d10; 
+  border-color: #258d10;
+      border-right-color: #154d0a;
+border-bottom-color: #154d0a;}
+  60% { background-color: #04026d; 
+    border-color: #04026d;
+    border-right-color: #01003b;
+border-bottom-color: #01003b;}
+  80% { background-color: #470163; 
+    border-color: #470163;
+    border-right-color: #230031;
+border-bottom-color: #230031;}
+  100% { background-color: #7c0a0a; 
+    border-color: #7c0a0a;
+    border-right-color: #500808;
+border-bottom-color: #500808;} 
+}
+
+/* scrolling bg help: https://stackoverflow.com/questions/33101376/html-5-css-animation-scrolling-tiled-background-image */
+/* rainbow help: https://www.w3schools.com/css//css3_transitions.asp#:~:text=To%20create%20a%20transition%20effect,transition%2Dduration */
