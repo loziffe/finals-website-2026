@@ -30,6 +30,8 @@ li{
     font-size: x-large;
 }
 
+
+
 .paused{
     -webkit-animation-play-state:paused !important; 
     -moz-animation-play-state:paused !important; 
