@@ -18,7 +18,8 @@ nav{
     border-bottom-color: rgb(97, 97, 97);
     margin: 5px;
     text-align: center;
-
+    /*position: fixed;*/
+    /*visibility: hidden; */
 }
 
 nav a{

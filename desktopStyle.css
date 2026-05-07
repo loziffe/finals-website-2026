@@ -1,0 +1,17 @@
+#desktopBG{
+    background-image: url(assets/lolbg.jpg);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#taskbar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.button{
+    position: fixed ;
+}
