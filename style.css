@@ -3,7 +3,6 @@ body{
     background-image: url("assets/bg.png");
     background-repeat: repeat;
     background-size: 550px 550px;
-    overflow: hidden;
     font-family: "smalle";
     -webkit-animation: scrolling 5s linear infinite;
     -moz-animation: scrolling 5s linear infinite;
@@ -19,7 +18,8 @@ nav{
     border-bottom-color: rgb(97, 97, 97);
     margin: 5px;
     text-align: center;
-
+    /*position: fixed;*/
+    /*visibility: hidden; */
 }
 
 nav a{
@@ -30,6 +30,8 @@ li{
     list-style-position: inside;
     font-size: x-large;
 }
+
+
 
 .paused{
     -webkit-animation-play-state:paused !important; 
