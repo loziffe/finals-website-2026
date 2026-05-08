@@ -1,4 +1,4 @@
-let appList = [["Placeholder","assets/iconPlaceholder.png","windowTest.html", 0,0],["OK","assets/SCARYICON.png","Testing.html", 0,128]]
+let appList = [["Find the Glaggle","assets/iconPlaceholder.png","https://scratch.mit.edu/projects/1238384849/embed", 0,0],["OK","assets/SCARYICON.png","Testing.html", 0,128],["Media Player","assets/audioIcon.png","mediaPlayer.html", 0,256]]
 let apps = []
 //window.alert("W.I.P!")
 appList.forEach(createIcon)
@@ -49,8 +49,10 @@ function createIcon(value, index, array){
     const iframe = document.createElement("iframe")
     iframe.src = value[2]
     iframe.style.position = "absolute"
-    iframe.style.left = "50%"
-    iframe.style.top = "50%"
+    iframe.style.left = "25%"
+    iframe.style.top = "25%"
+    iframe.style.height = "500px"
+    iframe.style.width = "500px"
     iframe.style.overflow = "auto"
     iframe.style.scrollbarWidth = "none"
     //iframe.style.padding = "5px"

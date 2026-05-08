@@ -1,6 +1,6 @@
 #desktopBG{
     background-image: url(assets/lolbg.jpg);
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
 }
 

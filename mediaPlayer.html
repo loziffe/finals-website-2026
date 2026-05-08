@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                background-image: url(assets/mediaBG.jpg); 
+                background-size:cover;
+                overflow: hidden;
+            }
+
+            div{
+                position: fixed;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                width: 100%;
+            }
+
+            p{
+               color: white; 
+            }
+        </style>
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <div>
+            <p id="fileName">Are you waiting?.mp3</p>
+            <audio controls id="media">
+                <source src="./assets/music/areyouwaiting.mp3" type="audio/mpeg" id="audio">
+            </audio>
+        </div>
+        <div>
+            <button id="play">play</button>
+            <input type="file" accept=".mp3" id="upload">
+             
+        </div>
+       
+    <script src="mediaPlayer.js"></script>
+    </body>
+</html>
+
+<!--file upload help: https://stackoverflow.com/a/43710640-->
