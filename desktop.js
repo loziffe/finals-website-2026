@@ -1,4 +1,4 @@
-let appList = [["Find the Glaggle","assets/iconPlaceholder.png","https://scratch.mit.edu/projects/1238384849/embed", 0,0],["OK","assets/SCARYICON.png","Testing.html", 0,128],["Media Player","assets/audioIcon.png","mediaPlayer.html", 0,256]]
+let appList = [["Find the Glaggle","assets/iconPlaceholder.png","https://scratch.mit.edu/projects/1238384849/embed", 0,0],["OK","assets/SCARYICON.png","Testing.html", 0,128],["Media Player","assets/audioIcon.png","mediaPlayer.html", 0,256],["Github","assets/GITHUB.png","windowTest.html", 0,364]]
 let apps = []
 //window.alert("W.I.P!")
 appList.forEach(createIcon)
